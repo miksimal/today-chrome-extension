@@ -39,7 +39,7 @@ document.getElementById("priority-form").addEventListener('submit', function(e) 
     
    e.preventDefault(); // prevents page refresh
 
-    priorityToday = null; // sets priorityToday to null
+    priorityToday = ""; // sets priorityToday to empty string (which is falsy)
 
     savePriority(); // saves to local storage
 
