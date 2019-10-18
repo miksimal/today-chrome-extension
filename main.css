@@ -1,0 +1,20 @@
+button { 
+
+   height: 35px;
+   width: 80px;
+   background: none; /* This removes the default background */
+   border: 1px solid;
+   border-radius: 50px; /* This gives our button rounded edges */
+   font-size: 12px;
+   cursor: pointer;
+
+}
+
+input {
+
+    padding: 5px;
+    font-size: 12px;
+    width: 300px;
+    height: 20px;
+
+}

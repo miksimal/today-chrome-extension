@@ -1,0 +1,16 @@
+{
+    "name": "Today will be a productive day",
+    "version": "1.0",
+    "description": "Get reminded of the day's top priority when you open a new tab",
+    "manifest_version": 2,
+    "incognito": "split",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": [
+       "activeTab"
+     ],
+     "icons": {
+      "128": "logo.png"
+      }
+  }
