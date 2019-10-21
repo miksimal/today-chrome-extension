@@ -21,7 +21,9 @@ function changePriority() { // updates priorityToday with input value, saves to 
    priorityToday = document.getElementById("priority-input").value;
    
    savePriority();
-
+   
+   document.forms["priority-form"].reset(); // clears the form after submission
+   
    getEncouragement();
 
 }
