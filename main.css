@@ -2,12 +2,21 @@ button {
 
    height: 35px;
    width: 80px;
-   background: none; /* This removes the default background */
-   border: 1px solid;
-   border-radius: 50px; /* This gives our button rounded edges */
+   background: black;
+   color: white; /* step in doing something similar to https://www.intercom.com/ */
+   border: 2px solid;
+   border-radius: 50px; /* rounded edges */
    font-size: 12px;
+   font-weight: bold;
    cursor: pointer;
+   font-family: sans-serif;
 
+}
+
+body {
+   
+   background-color:#F4F0EB;
+   font-family: sans-serif;
 }
 
 input {
@@ -16,5 +25,6 @@ input {
     font-size: 12px;
     width: 300px;
     height: 20px;
+    font-family: sans-serif;
 
 }
