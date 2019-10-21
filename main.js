@@ -24,6 +24,10 @@ function changePriority() { // updates priorityToday with input value, saves to 
    
    document.forms["priority-form"].reset(); // clears the form after submission
    
+   document.getElementById("priority-form").style.display = 'none'; // hide form after submit
+
+   document.getElementById("reset-form").style.display = 'block'; // show reset button
+   
    getEncouragement();
 
 }
@@ -44,6 +48,10 @@ document.getElementById("priority-form").addEventListener('submit', function(e) 
     priorityToday = ""; // sets priorityToday to empty string (which is falsy)
 
     savePriority(); // saves to local storage
+    
+    document.getElementById("priority-form").style.display = 'block'; // display form
+
+    document.getElementById("reset-form").style.display = 'none'; // hide reset button
 
     getEncouragement(); // updates the inner HTML
 
