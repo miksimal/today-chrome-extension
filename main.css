@@ -1,3 +1,7 @@
+#priority-form {
+    display: none; /* hide the submission form as default */
+}
+
 button { 
 
    height: 35px;
