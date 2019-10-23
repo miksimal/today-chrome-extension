@@ -17,6 +17,13 @@ button {
 
 }
 
+button:hover { /* on hover, swap font and background colours */
+
+    background: white;
+    color: black;
+    
+}
+
 body {
    
    background-color:#F4F0EB;
