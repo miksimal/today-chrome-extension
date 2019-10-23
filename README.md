@@ -7,4 +7,6 @@ If you want to try the extension, simply:
 + ensure you've got developer mode toggled on
 + click "Load unpacked" and choose the repository folder
 
+Edit: it's now on the Chrome web store to be installed like any other extension http://bit.ly/today-extension.
+
 Enjoy!
