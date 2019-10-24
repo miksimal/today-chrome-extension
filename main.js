@@ -63,7 +63,7 @@ document.getElementById("priority-form").addEventListener('submit', function(e) 
     e.preventDefault(); // prevents page refresh
 
     if (priorityToday) {
-      listItems += "<li>" + priorityToday + "</li>";
+      listItems = "<li>" + priorityToday + "</li>" + listItems;
       saveList();
     } 
 
