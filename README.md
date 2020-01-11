@@ -10,3 +10,9 @@ If you want to try the extension, simply:
 Edit: it's now on the Chrome web store to be installed like any other extension http://bit.ly/today-extension.
 
 Enjoy!
+
+## Learning Objectives
+
++ Refresh and improve knowledge of vanilla JS, HTMl, and CSS
++ Learn how to use local storage
++ Deploy my first "app" to the world, as a Chrome extension
